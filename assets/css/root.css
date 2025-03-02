@@ -1,0 +1,84 @@
+:root {
+    /***** font-family *****/
+    --font-family-primary: 'Plus Jakarta Display', sans-serif;
+    /***** color *****/
+    --color-white: white;
+    --color-black: black;
+    --color-brilliance: #FDFCFC;
+    --cream-white: #FAFAFA;
+    --bg-crystal-bell: #EEEDEF;
+    --color-light-black: #0000001F;
+    --color-dark-black: #0000003D;
+    --color-light-white: #FFFFFF29;
+    /***** linearGradient *****/
+    --linear-gradient-primary: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+    /***** font-size *****/
+    --fs-sm: 14px;
+    --fs-base: 18px;
+    --fs-md: 48px;
+    --fs-lg: 60px;
+    --fs-xl: 64px;
+}
+
+/***** font-family *****/
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+/***** color *****/
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.cream-white {
+    color: var(--cream-white);
+}
+
+.color-brilliance {
+    color: var(--color-brilliance);
+}
+
+.bg-brilliance {
+    background-color: var(--color-brilliance);
+}
+
+.bg-crystal-bell {
+    background-color: var(--bg-crystal-bell);
+}
+
+/***** linearGradient *****/
+.linear-gradient-primary {
+    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
+}
+
+/***** font-size *****/
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-base {
+    font-size: var(--fs-base);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl: 46px;
+        --fs-md: 30px;
+    }
+}
