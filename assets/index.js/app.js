@@ -45,7 +45,7 @@ const cardData = [
         text: "We are on a mission to revolutionize the field of healthcare through cutting-edge innovation."
     },
     {
-        img: "./assets/images/svg/education-img.svg",
+        img: "./assets/images/svg/icon.svg",
         title: "Education",
         text: "Education is rooted in the idea that learning should be a lifelong journey."
     },
